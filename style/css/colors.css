@@ -1,0 +1,19 @@
+.flow-area {
+  background-color: #050505;
+}
+.flow-area .position-one {
+  background-color: inherit;
+}
+.flow-area .position-two {
+  background-color: #120b7c;
+}
+.flow-area .position-three {
+  background-color: #137420;
+  border: 5vh solid #f7f7f8;
+  outline: 5vh solid #137420;
+}
+.flow-area .position-four {
+  background-color: #abc519;
+}
+
+/*# sourceMappingURL=colors.css.map */

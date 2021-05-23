@@ -1,0 +1,17 @@
+.flow-area {
+    background-color: rgb(5, 5, 5);
+    .position-one{
+        background-color: inherit;
+    }
+    .position-two{
+        background-color: rgb(18, 11, 124);        
+    }
+    .position-three {
+        background-color: rgb(19, 116, 32);
+        border: 5vh solid rgb(247, 247, 248);
+        outline: 5vh solid rgb(19, 116, 32);
+    }
+    .position-four {
+        background-color: rgb(171, 197, 25);
+    }
+}
