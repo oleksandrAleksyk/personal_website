@@ -1,5 +1,5 @@
 .flow-area {
-  background-color: #050505;
+  background-color: #514e64;
 }
 .flow-area .position-one {
   background-color: inherit;
@@ -51,14 +51,49 @@
   text-align: left;
 }
 
-html {
-  scroll-behavior: smooth;
+.scroller {
+  position: fixed;
+  left: 25px;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 55;
+}
+.scroller div {
+  width: 20px;
+  height: 20px;
+  margin-top: 25px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+.scroller .scroller-pos-one {
+  background-color: #8d0f0f;
+}
+.scroller .scroller-pos-two {
+  background-color: #8d0f0f;
+}
+.scroller .scroller-pos-three {
+  background-color: #8d0f0f;
+}
+.scroller .scroller-pos-four {
+  background-color: #8d0f0f;
+}
+.scroller .selected {
+  border: 3px solid white !important;
 }
 
-body {
+body, html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .section-one {
@@ -84,7 +119,7 @@ body {
   height: 100vh;
   position: absolute;
   z-index: 1;
-  transition: 0.25s transform ease-in-out, 0.25s top ease-in-out;
+  transition: 0.25s transform ease-in-out, 0.25s top ease-in-out, 0.5s background-color ease-in-out;
 }
 .flow-area .position-one {
   top: 0;

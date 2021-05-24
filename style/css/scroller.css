@@ -1,0 +1,31 @@
+.scroller {
+  position: fixed;
+  left: 25px;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 55;
+}
+.scroller div {
+  width: 20px;
+  height: 20px;
+  margin-top: 25px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+}
+.scroller .scroller-pos-one {
+  background-color: #8d0f0f;
+}
+.scroller .scroller-pos-two {
+  background-color: #8d0f0f;
+}
+.scroller .scroller-pos-three {
+  background-color: #8d0f0f;
+}
+.scroller .scroller-pos-four {
+  background-color: #8d0f0f;
+}
+.scroller .selected {
+  border: 3px solid white !important;
+}
+
+/*# sourceMappingURL=scroller.css.map */

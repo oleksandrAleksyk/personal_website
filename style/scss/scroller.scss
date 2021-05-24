@@ -1,0 +1,29 @@
+.scroller {
+    position: fixed;
+    left: 25px;
+    top: 50%;
+    transform: translate(0,-50%);
+    z-index: 55;
+    div {
+        width: 20px;
+        height: 20px;
+        margin-top: 25px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+    }
+    .scroller-pos-one {
+        background-color: rgb(141, 15, 15);
+    }
+    .scroller-pos-two {
+        background-color: rgb(141, 15, 15);
+    }
+    .scroller-pos-three {
+        background-color: rgb(141, 15, 15);
+    }
+    .scroller-pos-four {
+        background-color: rgb(141, 15, 15);
+    }
+    .selected {
+        border: 3px solid white !important;
+    }
+}
